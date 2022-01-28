@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Slab:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Poppins:wght@300&family=Roboto+Slab:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Poppins:wght@300;500&family=Roboto+Slab:wght@600&display=swap');
+@media only screen and (max-width : 899px){
+.whole{
+    display: none;
+}
+}
+
+
+@media only screen and (min-width :900px){
+.information{
+    display: none;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: rgb(48, 48, 48); */
+    background-color: rgb(37, 34, 34);
+
+}
+.section_A{
+   /* background-color: rgb(48, 48, 48);  */
+    
+}
+
+.navbar{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    /* font-weight: bold; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(44, 42, 42);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+
+}
+
+.navbar_details{
+    text-decoration: none;
+    list-style-type: none;
+    /* display: contents; */
+}
+
+
+.navbar_details li{
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+
+
+
+.navbar_details li a{
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+
+
+
+.navbar_details li a:hover{
+    color: yellow;
+
+}
+
+.style_logo{
+    cursor: pointer;
+    /* color: white; */
+    margin-left: 20px;
+    font-weight: bold;
+    
+}
+
+.style_1{
+    color: rgb(15, 235, 235);
+}
+
+.style_2{
+    color: rgb(252, 7, 88);
+}
+
+.style_3{
+    color: white;
+}
+
+.introduction{
+    font-size: 40px;
+    margin-left: 80px;
+    margin-top: 130px;
+    font-family: Roboto Slab;
+    line-height: 1.2;
+}
+
+.introduction_details{
+    color: rgb(95, 97, 97);
+    margin-left: 80px;
+    margin-top: 20px;
+    font-family: Poppins;
+    font-size: 30px;
+}
+.icons{
+    /* padding: 1px; */
+    margin-left: 80px;
+    margin-top: 15px;
+}
+
+.icons li{
+    display: inline-block;
+    margin-right: 20px;
+    /* margin-top: 15px; */
+    padding: 
+
+}
+
+.icons li a{
+    transition: all 0.3s ease 0s;
+}
+
+
+
+.icons li a:hover{
+    color: white;
+}
+
+
+.education{
+    position: relative;
+    margin-top: 150px;
+}
+
+.title{
+    position: absolute;
+    writing-mode: vertical-lr;
+    -webkit-transform: rotate(180deg);   
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    font-size: 100px;
+    font-family: Roboto Slab;
+    color: rgb(95, 97, 97);
+
+}
+
+.college{
+    position: absolute;
+    left: 150px;
+    background-color: rgb(44, 43, 43); 
+    width: 35%;
+    margin-top: 10px;
+    border-left-color: rgb(252, 7, 88);
+    border-left-style:solid;
+    border-left-width:thick;
+    height: 30rem;
+}
+
+.college h2{
+        color: rgb(15, 235, 235);
+        font-family: Roboto Slab;
+        padding: 15px 20px;
+        font-size: 40px;
+}
+
+.college .detail_1{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+    margin-left: 20px;
+    line-height: 1.4;
+    font-weight: bold;
+    
+}
+
+.college .detail_2{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+    margin-left: 20px;
+    /* line-height: 1.4; */
+}
+
+.college .detail_3{
+    color: rgb(95, 97, 97);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+
+.school{
+    position: absolute;
+    right: 100px;
+    background-color: rgb(44, 43, 43); 
+    width: 35%;
+    margin-top: 10px;
+    border-left-color: rgb(15, 235, 235);
+    border-left-style:solid;
+    border-left-width:thick;
+    height: 30rem;
+}
+
+
+.school h2{
+    font-family: Roboto Slab;
+    padding: 15px 20px;
+    font-size: 40px;
+    color: rgb(252, 7, 88);
+}
+
+.school .detail_1{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+    margin-left: 20px;
+    /* line-height: 1.4; */
+    font-weight: bold;
+}
+
+.school .detail_2{
+    color: rgb(95, 97, 97);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+
+
+.title_1{
+    position: absolute;
+    writing-mode: vertical-lr;
+    -webkit-transform: rotate(180deg);   
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    font-size: 100px;
+    font-family: Roboto Slab;
+    color: rgb(95, 97, 97);
+    margin-top: 70px;
+}
+*{
+    box-sizing:border-box
+}
+
+.skill_bar{
+    margin-top: 600px;
+    position: relative;
+    /* display: inline-block; */
+}
+
+.skill_bar .heading{
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+    font-weight: bold;
+    padding-top: 100px;
+    color: rgb(44, 43, 43);
+}
+
+.skill_bar .skill_1{
+    position: absolute;
+    left: 150px;
+    width: 70%;
+}
+
+.skill_bar .skill_1 .p_skill{
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+
+
+.skill_bar .skill_2{
+    position: absolute;
+    left: 800px;
+    width: 70%;
+}
+.container {
+  width: 50%; 
+  background-color: rgb(44, 43, 43); 
+  border-radius: 10px;
+}
+
+.skills {
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    color: white;
+    text-align: center;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.p_skill .heading_skill{
+    font-weight: bold;
+    color: white;
+    font-family: Roboto Slab;
+}
+
+.html {width: 90%; background-color: rgb(252, 7, 88);}
+.css {width: 80%; background-color: rgb(252, 7, 88);} 
+.js {width: 60%; background-color: rgb(252, 7, 88);} 
+.php {width: 60%; background-color: rgb(252, 7, 88);}
+
+/* .projects{
+    position: relative; 
+    margin-top: 700px;   
+}
+
+.projects .title_project{
+    position: absolute;
+    writing-mode: vertical-lr;
+    -webkit-transform: rotate(180deg);   
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    font-size: 100px;
+}
+.projects .project_1{
+    position: absolute;
+    right: 100px;
+    background-color: rgb(44, 43, 43); 
+    width: 35%;
+}
+
+.projects .project_1 .voice_assistant_img{
+    height: 140px;
+    width: 200px;
+    padding: 10px 0 0 100px;
+}
+
+.projects .project_2{
+    position: absolute;
+}
+
+.projects .project_2 .guess_the_number_img{
+    height: 140px;
+    width: 200px;
+}
+
+.projects .project_3{
+    position: absolute;
+
+}
+
+.projects .project_3 .portfolio_img{
+    height: 140px;
+    width: 200px;
+} */
+
+.contact{
+    position: relative;
+}
+
+
+.contact .contact_1{
+    position: absolute;
+    writing-mode: vertical-lr;
+    -webkit-transform: rotate(180deg);   
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    font-size: 100px;
+    font-family: Roboto Slab;
+    color: rgb(95, 97, 97);
+    margin-top: 250px;
+}
+
+
+
+
+.contact_me h1{
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+    font-weight: bold;
+    padding-top: 100px;
+    color: rgb(44, 43, 43);
+}
+
+.contact .contact_me{
+    color: white;
+    margin-top: 400px;
+}
+
+.details .details_1{
+    width: 70%;
+    height: 60px;
+    padding: 12px 20px;
+    margin: 18px 0 18px 150px;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 3px solid rgb(95, 97, 97);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+
+
+
+
+.info .something{
+    width: 70%;
+    height: 240px;
+    padding-bottom: 198px;
+    padding-left: 20px;
+    margin: 18px 0 18px 150px;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 3px solid rgb(95, 97, 97);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid white;
+}
+
+input[type=email]:focus {
+    border: 3px solid white;
+}
+
+.button {
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+  
+.button1 {
+    background-color: transparent; 
+    color: rgb(252, 7, 88);; 
+    border: 2px solid rgb(252, 7, 88);;
+}
+  
+.button1:hover {
+    background-color: white;
+    color: rgb(252, 7, 88);;
+}
+.submitt{
+    margin: 18px 0 18px 150px;
+}
+
+}
